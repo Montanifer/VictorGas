@@ -1,0 +1,334 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    font-family: 'Comic Neue', cursive;
+}
+
+body {
+    background-color:#f5f5f5;
+    
+}
+
+
+header{
+    
+  
+    background-color: #ffffff;
+
+  
+}
+
+.borde {
+    
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    margin: 30px 100px 30px 100px;
+    
+}
+
+ul {
+    display: flex;
+    justify-content: right;
+    background-color: #ffffff;
+    padding-right: 20px;
+    padding-bottom: 15px;
+}
+
+.logo {
+
+    padding-left: 20px;
+    padding-top: 20px;
+}
+
+li {
+    display: inline-block;
+    margin: 10px;
+    font-size: 14px;
+    font-weight: 900;
+    color: #ffc550;
+   
+    
+    
+}
+
+
+
+.btn__secciones {
+    background: #ffc550;
+    padding: 5px 18px;
+    font-weight: 900;
+    font-size: 14px;
+    border: 2px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    
+
+}
+
+.btn__color {
+    
+    border: 2px solid black;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #ffeead;
+    box-shadow: 1px 1px;
+    text-decoration: none;
+    
+}
+
+.btn__secciones{
+
+    margin-top: 13px;
+
+}
+
+.fuente {
+    text-transform: uppercase;
+    
+}
+
+.parrafos {
+    margin-top: 50px;
+    text-align: left;
+    text-transform: lowercase;
+    text-transform: capitalize;
+    line-height: 1.5;
+    font-size: 16px;
+   
+  
+
+}
+
+.imagenes {
+    border: 2px solid black;
+    border-style: groove;
+    box-shadow: 1px 1px;
+
+}
+
+
+.equipo {
+
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 50px 100px 30px 100px
+    
+}
+
+.servicios {
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 50px 100px 30px 100px;
+    
+}
+
+.servicios__detalles {
+    border: 2px solid black;
+    border-radius: 5px;
+
+}
+
+.rubros {
+    margin-left: 65px;
+    font-weight: 900;
+}
+
+.opiniones {
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    background-color: #ffffff;
+    padding: 50px;
+    margin: 50px 100px 30px 100px;
+}
+
+footer {
+
+   
+    
+    border: 2px solid #ffeead;
+    border-radius: 5px;
+    background-color: #ffc550;
+    padding: 10px;
+    margin: 65px 100px 10px 100px
+}
+
+
+    
+
+
+
+
+
+.formulario {
+    
+    background-color: #ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 30px 30px 40px 30px;
+    margin: 50px 100px 30px 100px
+    
+   
+    
+}
+
+.letraFormulario {
+    
+    font-size: 15px;
+    padding-bottom: 30px;
+}
+
+.grid {
+    
+    display: grid;
+    grid-template-areas:
+    "servicios1 gas1"
+    "servicios2 plomeria1"
+    "servicios3 hogar1" 
+    ;
+    grid-template-columns: 20% 80%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 10px;
+    margin: 50px 100px 30px 100px
+    
+  
+
+
+}
+#servicios1 {
+    grid-area: servicios1;
+    padding-top: 20px;
+    background-color: #ffc550;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+    
+    
+
+
+}
+
+#servicios2 {
+    grid-area: servicios2;
+    padding-top: 20px;
+    background-color: #ffc550;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+    
+
+}
+
+#servicios3 {
+    grid-area: servicios3;
+    padding-top: 20px;
+    background-color: #ffc550;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    text-align: center;
+    font-weight: 900;
+   
+
+
+}
+
+#gas1 {
+    grid-area: gas1;
+    padding: 10px;
+    background-color:#ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+}
+#plomeria1 {
+    grid-area: plomeria1;
+    padding: 10px;
+    background-color:#ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+
+}
+#hogar1 {
+    grid-area: hogar1;
+    padding: 10px;
+    background-color:#ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px; 
+}
+.centradoServicios {
+    text-align: center;
+    padding : 30px 0px 20px 0px;
+
+}
+
+.opiniones1 {
+  
+    display: grid;
+    grid-template-areas:
+    "o1 o2 o3"
+    "o1 o4 o3"
+    "o1 o5 o3";
+    grid-template-columns: 20% 60% 20%;
+    grid-template-rows: 30% 30% 30%;
+    gap: 10px;
+    margin: 50px 100px 30px 100px
+    
+
+}
+
+#o1 {
+    grid-area: 01;
+    background-color: #ffc550;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    padding: 10px ;
+  
+
+}
+#o2 {
+
+    grid-area: o2;
+    background-color: #ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    padding: 10px ;
+}
+#o3 {
+    grid-area: o3;
+    background-color: #ffc550;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    padding: 10px ;
+}
+#o4 {
+    grid-area: o4;
+    background-color: #ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    padding: 10px ;
+}
+#o5 {
+    grid-area: o5;
+    background-color: #ffffff;
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    padding: 10px ;
+}
