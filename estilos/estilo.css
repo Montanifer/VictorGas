@@ -65,12 +65,12 @@ li {
     border-radius: 5px;
     box-shadow: 1px 1px;
     margin-top: 13px;
-    transition: all 1s;
+    transition: all 0.5s;
     
 
 }
 .btn__secciones:hover {
-    background-color:#97ffff ;
+    background-color:#7AA298;
 }
 
 .btn__formulario {
@@ -97,7 +97,7 @@ li {
     background-color: #ffeead;
     box-shadow: 1px 1px;
     text-decoration: none;
-    transition: all 1s;
+    transition: all 0.5s;
 }
 .btn__color:hover {
     background-color:#ffc550;
