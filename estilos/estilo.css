@@ -25,7 +25,7 @@ header{
     
     border: 2px solid #ffc550;
     border-radius: 5px;
-    margin: 30px 100px 30px 100px;
+    margin: 3em 8em 2em 6em
     
 }
 
@@ -139,7 +139,7 @@ li {
     justify-content: space-around;
     background-color: #ffffff;
     padding: 50px;
-    margin: 50px 100px 30px 100px
+    margin: 3em 8em 2em 6em
     
     
 }
@@ -152,7 +152,7 @@ li {
     justify-content: space-evenly;
     background-color: #ffffff;
     padding: 50px;
-    margin: 50px 100px 30px 100px;
+    margin: 3em 8em 2em 6em
     
 }
 
@@ -175,7 +175,7 @@ li {
     justify-content: space-around;
     background-color: #ffffff;
     padding: 50px;
-    margin: 50px 100px 30px 100px;
+    margin: 3em 8em 2em 6em
 }
 
 footer {
@@ -184,9 +184,9 @@ footer {
     
     border: 2px solid #ffeead;
     border-radius: 5px;
-    background-color: #ffc550;
+    background-color: #7AA298;
     padding: 10px;
-    margin: 65px 100px 10px 100px
+    margin: 3em 8em 2em 6em
 }
 
 .transformacion:hover {
@@ -210,7 +210,7 @@ footer {
     font-weight: bold;
     font-size: 16px;
     padding: 30px 30px 40px 30px;
-    margin: 50px 100px 30px 100px
+    margin: 3em 8em 2em 6em
     
    
     
@@ -233,7 +233,7 @@ footer {
     grid-template-columns: 20% 80%;
     grid-template-rows: 30% 30% 30%;
     gap: 10px;
-    margin: 50px 100px 30px 100px
+    margin: 3em 9em 2em 6em
     
   
 
@@ -280,14 +280,14 @@ footer {
 
 #gas1 {
     grid-area: gas1;
-    padding: 10px;
+    padding: 1em;
     background-color:#ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
 }
 #plomeria1 {
     grid-area: plomeria1;
-    padding: 10px;
+    padding: 1em;
     background-color:#ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
@@ -295,14 +295,14 @@ footer {
 }
 #hogar1 {
     grid-area: hogar1;
-    padding: 10px;
+    padding: 1em;
     background-color:#ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px; 
 }
 .centradoServicios {
     text-align: center;
-    padding : 30px 0px 20px 0px;
+    
 
 }
 
@@ -316,7 +316,7 @@ footer {
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 30% 30% 30%;
     gap: 10px;
-    margin: 50px 100px 30px 100px
+    margin: 3em 9em 2em 6em
     
 
 }
