@@ -64,8 +64,25 @@ li {
     border: 2px solid black;
     border-radius: 5px;
     box-shadow: 1px 1px;
+    margin-top: 13px;
     
 
+}
+
+.btn__formulario {
+    background: #ffc550;
+    padding: 5px 18px;
+    font-size: 14px;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    margin-top: 13px;
+}
+
+.campoform {
+    border: 1px solid #ffc550;
+    border-radius: 5px;
+    
 }
 
 .btn__color {
@@ -79,11 +96,6 @@ li {
     
 }
 
-.btn__secciones{
-
-    margin-top: 13px;
-
-}
 
 .fuente {
     text-transform: uppercase;
@@ -168,7 +180,14 @@ footer {
     margin: 65px 100px 10px 100px
 }
 
-
+.transformacion:hover {
+    transform: scale(2);
+    
+}
+.transformacion {
+    transition: all 1s;
+    
+}
     
 
 
