@@ -65,8 +65,12 @@ li {
     border-radius: 5px;
     box-shadow: 1px 1px;
     margin-top: 13px;
+    transition: all 1s;
     
 
+}
+.btn__secciones:hover {
+    background-color:#97ffff ;
 }
 
 .btn__formulario {
@@ -85,7 +89,7 @@ li {
     
 }
 
-.btn__color {
+.btn__color{
     
     border: 2px solid black;
     border-radius: 5px;
@@ -93,9 +97,12 @@ li {
     background-color: #ffeead;
     box-shadow: 1px 1px;
     text-decoration: none;
+    transition: all 1s;
+}
+.btn__color:hover {
+    background-color:#ffc550;
     
 }
-
 
 .fuente {
     text-transform: uppercase;
@@ -109,6 +116,7 @@ li {
     text-transform: capitalize;
     line-height: 1.5;
     font-size: 16px;
+
    
   
 
@@ -132,6 +140,7 @@ li {
     background-color: #ffffff;
     padding: 50px;
     margin: 50px 100px 30px 100px
+    
     
 }
 
@@ -189,7 +198,6 @@ footer {
     
 }
     
-
 
 
 
