@@ -8,25 +8,24 @@ html {
 }
 
 body {
-    background-color:#f5f5f5;
-    
+    background-color: #f5f5f5;
+
 }
 
 
-header{
-    
-  
+header {
+
+
     background-color: #ffffff;
 
-  
+
 }
 
 .borde {
-    
-    border: 2px solid #ffc550;
+
+    border: 2px solid #7AA298;
     border-radius: 5px;
     margin: 3em 8em 2em 6em
-    
 }
 
 ul {
@@ -49,11 +48,12 @@ li {
     font-size: 14px;
     font-weight: 900;
     color: #ffc550;
-   
-    
-    
+
+
+
 }
 
+/*transicion - transformacion*/
 
 
 .btn__secciones {
@@ -66,11 +66,12 @@ li {
     box-shadow: 1px 1px;
     margin-top: 13px;
     transition: all 0.5s;
-    
+
 
 }
+
 .btn__secciones:hover {
-    background-color:#7AA298;
+    background-color: #7AA298;
 }
 
 .btn__formulario {
@@ -84,13 +85,13 @@ li {
 }
 
 .campoform {
-    border: 1px solid #ffc550;
+    border: 1px solid #7AA298;
     border-radius: 5px;
-    
+
 }
 
-.btn__color{
-    
+.btn__color {
+
     border: 2px solid black;
     border-radius: 5px;
     padding: 10px;
@@ -99,14 +100,15 @@ li {
     text-decoration: none;
     transition: all 0.5s;
 }
+
 .btn__color:hover {
-    background-color:#ffc550;
-    
+    background-color: #ffc550;
+
 }
 
 .fuente {
     text-transform: uppercase;
-    
+
 }
 
 .parrafos {
@@ -117,8 +119,8 @@ li {
     line-height: 1.5;
     font-size: 16px;
 
-   
-  
+
+
 
 }
 
@@ -140,8 +142,6 @@ li {
     background-color: #ffffff;
     padding: 50px;
     margin: 3em 8em 2em 6em
-    
-    
 }
 
 .servicios {
@@ -153,7 +153,6 @@ li {
     background-color: #ffffff;
     padding: 50px;
     margin: 3em 8em 2em 6em
-    
 }
 
 .servicios__detalles {
@@ -179,9 +178,6 @@ li {
 }
 
 footer {
-
-   
-    
     border: 2px solid #ffeead;
     border-radius: 5px;
     background-color: #7AA298;
@@ -191,19 +187,20 @@ footer {
 
 .transformacion:hover {
     transform: scale(2);
-    
+
 }
+
 .transformacion {
     transition: all 1s;
-    
+
 }
-    
+
 
 
 
 
 .formulario {
-    
+
     background-color: #ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
@@ -211,34 +208,30 @@ footer {
     font-size: 16px;
     padding: 30px 30px 40px 30px;
     margin: 3em 8em 2em 6em
-    
-   
-    
 }
 
 .letraFormulario {
-    
+
     font-size: 15px;
     padding-bottom: 30px;
 }
 
+/*GRID*/
+
 .grid {
-    
+
     display: grid;
     grid-template-areas:
-    "servicios1 gas1"
-    "servicios2 plomeria1"
-    "servicios3 hogar1" 
+        "servicios1 gas1"
+        "servicios2 plomeria1"
+        "servicios3 hogar1"
     ;
-    grid-template-columns: 20% 80%;
-    grid-template-rows: 30% 30% 30%;
+    grid-template-columns: 1fr 3fr;
+    grid-template-rows: 2fr 2fr 2fr;
     gap: 10px;
     margin: 3em 9em 2em 6em
-    
-  
-
-
 }
+
 #servicios1 {
     grid-area: servicios1;
     padding-top: 20px;
@@ -247,8 +240,8 @@ footer {
     border-radius: 5px;
     text-align: center;
     font-weight: 900;
-    
-    
+
+
 
 
 }
@@ -261,7 +254,7 @@ footer {
     border-radius: 5px;
     text-align: center;
     font-weight: 900;
-    
+
 
 }
 
@@ -273,7 +266,7 @@ footer {
     border-radius: 5px;
     text-align: center;
     font-weight: 900;
-   
+
 
 
 }
@@ -281,44 +274,52 @@ footer {
 #gas1 {
     grid-area: gas1;
     padding: 1em;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
 }
+
 #plomeria1 {
     grid-area: plomeria1;
     padding: 1em;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
 
 }
+
 #hogar1 {
     grid-area: hogar1;
     padding: 1em;
-    background-color:#ffffff;
+    background-color: #ffffff;
     border: 2px solid #ffc550;
-    border-radius: 5px; 
+    border-radius: 5px;
 }
+
 .centradoServicios {
     text-align: center;
-    
-
+    font-size: 2em;
 }
 
+.animate__animated {
+    background-color: #7AA298;
+    padding: 10px ;
+    margin: 5% 40% 5% 40% ;
+    border: 2px solid #ffc550;
+}
+
+/*GRID*/
 .opiniones1 {
-  
+
     display: grid;
     grid-template-areas:
-    "o1 o2 o3"
-    "o1 o4 o3"
-    "o1 o5 o3";
+        "o1 o2 o3"
+        "o1 o4 o3"
+        "o1 o5 o3";
     grid-template-columns: 20% 60% 20%;
     grid-template-rows: 30% 30% 30%;
     gap: 10px;
     margin: 3em 9em 2em 6em
-    
-
 }
 
 #o1 {
@@ -326,36 +327,40 @@ footer {
     background-color: #ffc550;
     border: 2px solid #ffc550;
     border-radius: 5px;
-    padding: 10px ;
-  
+    padding: 10px;
+
 
 }
+
 #o2 {
 
     grid-area: o2;
     background-color: #ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
-    padding: 10px ;
+    padding: 10px;
 }
+
 #o3 {
     grid-area: o3;
     background-color: #ffc550;
     border: 2px solid #ffc550;
     border-radius: 5px;
-    padding: 10px ;
+    padding: 10px;
 }
+
 #o4 {
     grid-area: o4;
     background-color: #ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
-    padding: 10px ;
+    padding: 10px;
 }
+
 #o5 {
     grid-area: o5;
     background-color: #ffffff;
     border: 2px solid #ffc550;
     border-radius: 5px;
-    padding: 10px ;
+    padding: 10px;
 }
