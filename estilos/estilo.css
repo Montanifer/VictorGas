@@ -53,6 +53,11 @@ li {
 
 }
 
+a {
+   text-decoration: none;
+   color: black;
+}
+
 /*transicion - transformacion*/
 
 
@@ -323,7 +328,7 @@ footer {
 }
 
 #o1 {
-    grid-area: 01;
+    grid-area: o1;
     background-color: #ffc550;
     border: 2px solid #ffc550;
     border-radius: 5px;
