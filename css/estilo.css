@@ -9,6 +9,7 @@ html {
 
 body {
     background-color: #f5f5f5;
+    font-family: 'Raleway', sans-serif
 
 }
 
@@ -204,6 +205,7 @@ a {
     margin: 0px 10px 0px 10px;
 
 }
+
 .iconos {
     display: block;
 }
@@ -332,53 +334,30 @@ a {
 }
 
 
-.row {
-    flex-shrink: 0;
-    width: 100%;
-    max-width: 100%;
-    
+
+ .container{
+    width: 40%;
+  }
+
+h3 {
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 600;
 }
 
-.profile-pics {
-    padding: 3%;
-    
-    
+
+.pieOpinion {
+    margin-bottom: 0px;
 }
-.pb-5 {
-    padding-bottom: 3rem;
-   
+.row {
+    border: 2px solid #7AA298;
+    border-radius: 5px;
 }
-.justify-content-between {
-    justify-content: center;
-}
-.d-flex {
-    display: flex;
-}
-.list-group-horizontal {
-    flex-direction: row;
-    justify-content: center;
-    padding: 2% ;
-    background-color:#7AA298 ;
-}
-.list-group {
-    display: flex;
-    justify-content: space-between;
-}
-.rounded-circle {
+
+ .rounded-circle {
+
     border-radius: 50%;
-    margin-left: 25%;
-    
-}
-h3 {
-    text-align: center;
-    margin-top: 5px;
-    color: black;
-}
-.container-sm {
-    margin:3em 8em 2em 6em ;
+    margin-top: 15px;
     border: 2px solid #ffc550;
-}
-p {
-    text-align: justify;
-    color: black;
-}
+    ;
+}  
