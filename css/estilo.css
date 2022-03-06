@@ -327,6 +327,7 @@ a {
 .centradoServicios {
     text-align: center;
     font-size: 2em;
+    font-weight: 600;
 }
 
 .animate__animated {
