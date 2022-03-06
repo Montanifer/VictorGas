@@ -4,7 +4,7 @@
 }
 
 html {
-    font-family: 'Comic Neue', cursive;
+    font-family: 'Raleway', sans-serif;
 }
 
 body {
@@ -46,7 +46,7 @@ li {
     display: inline-block;
     margin: 10px;
     font-size: 14px;
-    font-weight: 900;
+    font-weight: 600;
     color: #ffc550;
 
 
@@ -64,7 +64,7 @@ a {
 .btn__secciones {
     background: #ffc550;
     padding: 5px 18px;
-    font-weight: 900;
+    font-weight: 600;
     font-size: 14px;
     border: 2px solid black;
     border-radius: 5px;
@@ -168,7 +168,7 @@ a {
 
 .rubros {
     margin-left: 65px;
-    font-weight: 900;
+    font-weight: 600;
 }
 
 .opiniones {
@@ -182,12 +182,30 @@ a {
     margin: 3em 8em 2em 6em
 }
 
-footer {
+.footer {
+   
     border: 2px solid #ffeead;
     border-radius: 5px;
     background-color: #7AA298;
-    padding: 10px;
-    margin: 3em 8em 2em 6em
+    padding: 2em;
+    margin: 2em 8em 1em 6em
+}
+.menuFooter:hover {
+    color: darkcyan;
+    transition: all 0.5s;
+    
+}
+
+
+
+.pie {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px;
+
+}
+.iconos {
+    display: block;
 }
 
 .transformacion:hover {
@@ -244,7 +262,7 @@ footer {
     border: 2px solid #ffc550;
     border-radius: 5px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 
 
 
@@ -258,7 +276,7 @@ footer {
     border: 2px solid #ffc550;
     border-radius: 5px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 
 
 }
@@ -270,7 +288,7 @@ footer {
     border: 2px solid #ffc550;
     border-radius: 5px;
     text-align: center;
-    font-weight: 900;
+    font-weight: 600;
 
 
 
@@ -313,59 +331,54 @@ footer {
     border: 2px solid #ffc550;
 }
 
-/*GRID*/
-.opiniones1 {
 
-    display: grid;
-    grid-template-areas:
-        "o1 o2 o3"
-        "o1 o4 o3"
-        "o1 o5 o3";
-    grid-template-columns: 20% 60% 20%;
-    grid-template-rows: 30% 30% 30%;
-    gap: 10px;
-    margin: 3em 9em 2em 6em
+.row {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    
 }
 
-#o1 {
-    grid-area: o1;
-    background-color: #ffc550;
-    border: 2px solid #ffc550;
-    border-radius: 5px;
-    padding: 10px;
-
-
+.profile-pics {
+    padding: 3%;
+    
+    
 }
-
-#o2 {
-
-    grid-area: o2;
-    background-color: #ffffff;
-    border: 2px solid #ffc550;
-    border-radius: 5px;
-    padding: 10px;
+.pb-5 {
+    padding-bottom: 3rem;
+   
 }
-
-#o3 {
-    grid-area: o3;
-    background-color: #ffc550;
-    border: 2px solid #ffc550;
-    border-radius: 5px;
-    padding: 10px;
+.justify-content-between {
+    justify-content: center;
 }
-
-#o4 {
-    grid-area: o4;
-    background-color: #ffffff;
-    border: 2px solid #ffc550;
-    border-radius: 5px;
-    padding: 10px;
+.d-flex {
+    display: flex;
 }
-
-#o5 {
-    grid-area: o5;
-    background-color: #ffffff;
+.list-group-horizontal {
+    flex-direction: row;
+    justify-content: center;
+    padding: 2% ;
+    background-color:#7AA298 ;
+}
+.list-group {
+    display: flex;
+    justify-content: space-between;
+}
+.rounded-circle {
+    border-radius: 50%;
+    margin-left: 25%;
+    
+}
+h3 {
+    text-align: center;
+    margin-top: 5px;
+    color: black;
+}
+.container-sm {
+    margin:3em 8em 2em 6em ;
     border: 2px solid #ffc550;
-    border-radius: 5px;
-    padding: 10px;
+}
+p {
+    text-align: justify;
+    color: black;
 }
