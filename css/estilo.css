@@ -8,8 +8,9 @@ html {
 }
 
 body {
-    background-color: #7AA298;
-    font-family: 'Raleway', sans-serif
+
+   background-color: #7AA298
+   
 
 }
 
@@ -35,6 +36,7 @@ ul {
     background-color: #ffffff;
     padding-right: 20px;
     padding-bottom: 15px;
+    letter-spacing: 0.5em;
 }
 
 .logo {
@@ -81,6 +83,8 @@ a {
 
 
 .btn__formulario {
+
+    letter-spacing: 0.5em;
     background: #ffc550;
     padding: 5px 18px;
     font-size: 14px;
@@ -97,6 +101,8 @@ a {
 }
 
 .btn__color {
+
+    letter-spacing: 0.5em;
 
     border: 2px solid black;
     border-radius: 5px;
@@ -209,6 +215,8 @@ a {
 
 }
 
+
+
 .iconos {
     display: block;
 }
@@ -238,7 +246,7 @@ a {
      
     
  }
-.card-reverse {
+#reverse {
     flex-direction: row-reverse;
     
 
@@ -265,6 +273,7 @@ a {
 
 .letraFormulario {
 
+    
     font-size: 15px;
     padding-bottom: 30px;
 }
@@ -354,9 +363,13 @@ a {
 }
 
 .centradoServicios {
+
+    font-family: 'Raleway', sans-serif;
     text-align: center;
     font-size: 2em;
-    font-weight: 600;
+    font-weight: 500;
+    letter-spacing: 1em;
+   
 }
 
  .listas {
@@ -369,11 +382,14 @@ a {
 }
 
 
-.animate__animated {
+.titulos{
+
+    
     background-color: #7AA298;
-    padding: 10px ;
-    margin: 5% 40% 5% 40% ;
     border: 2px solid #ffc550;
+    padding: 3em;
+    margin: 3em 8em 2em 6em;
+    
 }
 
 
