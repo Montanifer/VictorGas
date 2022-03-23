@@ -312,6 +312,11 @@ h2 {
 
 }
 
+.card-title {
+    letter-spacing: 0.5em;
+    
+    
+}
 
 /*GRID*/
 
@@ -372,7 +377,7 @@ h2 {
 
 #gas1 {
     grid-area: gas1;
-    display: inline;
+   
     padding: 1em;
     background-color: #ffc550;
     border: 2px solid #ffc550;
