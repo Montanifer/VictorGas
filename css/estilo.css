@@ -104,10 +104,19 @@ a {
   
    display: flex;
    border: 1px solid #7AA298;
-   border-radius: 5px;
+   border-radius: 2px;
  
 
 }
+
+.comentario {
+
+    display: flex;
+    padding: 5em 10em 5em 6em;
+    border: 1px solid #7AA298;
+    border-radius: 2px;
+}
+
 
 .form-select {
     font-family: 'Raleway', sans-serif;
@@ -115,6 +124,8 @@ a {
     margin-top: 1em;
     margin-bottom: 0.5em;
     padding: 0.5em;
+    border: 1px solid #7AA298;
+    border-radius: 2px;
 }
 
 .formulario {
@@ -131,13 +142,18 @@ a {
 }
 
 .letraFormulario {
-    line-height: 0.5em ;
+    line-height: 1em ;
     letter-spacing: 0.5em;
     padding-bottom: 30px;
 }
 
 .backgroundFormulario {
     background-color: #7AA298;
+}
+
+h2 {
+
+    margin-bottom: 1em;
 }
 
 .btn__color {
@@ -329,6 +345,7 @@ a {
 }
 
 #servicios2 {
+
     grid-area: servicios2;
     padding-top: 20px;
     background-color: #e9ecef;
@@ -355,6 +372,7 @@ a {
 
 #gas1 {
     grid-area: gas1;
+    display: inline;
     padding: 1em;
     background-color: #ffc550;
     border: 2px solid #ffc550;
