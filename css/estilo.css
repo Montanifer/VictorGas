@@ -15,7 +15,7 @@ body {
    
 
 }
-
+    /*ENCABEZADO*/
 
 header {
 
@@ -54,20 +54,7 @@ ul {
     margin-top: 10% ;
     margin-left: 95% ;
     
-
-    
-
 }
-
-
-
-.fa-solid {
-
-    margin-left: 97% ;
-}
-
-
-
 
 
 li {
@@ -87,7 +74,7 @@ a {
    color: black;
 }
 
-/*transicion - transformacion*/
+/*BOTONES*/
 
 
 .btn__secciones {
@@ -120,6 +107,9 @@ a {
     box-shadow: 1px 1px;
     margin-top: 13px;
 }
+
+
+/*FORMULARIO*/
 
 .campoform {
   
@@ -213,18 +203,9 @@ h2 {
     line-height: 1.5;
     font-size: 16px;
 
-
-
-
 }
 
-/* .imagenes {
-    border: 2px solid black;
-    border-style: groove;
-    box-shadow: 1px 1px;
-
-} */
-
+/*SECCIÓN INICIO*/
 
 .equipo {
 
@@ -279,6 +260,15 @@ h2 {
 
 }
 
+/*BOTON PARA VOLVERA  INICIO*/
+
+.fa-solid {
+
+    margin-left: 97% ;
+}
+
+/*FOOTER*/
+
 .footer {
     
     font-family: 'Raleway', sans-serif;
@@ -319,6 +309,33 @@ h2 {
 
 }
 
+.pieOpinion {
+    margin-bottom: 0em;
+}
+
+/*H1 SECCIONES*/
+
+.colorServicios {
+    background-color: #e9ecef;
+    
+    background-size: contain;
+}
+
+.centradoServicios {
+
+  
+
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    font-size: 2em;
+    font-weight: 500;
+    letter-spacing: 1em;
+    border-radius: 5px;
+
+    
+}
+
+/*SECCIÓN EQUIPO*/
 
 .card {
     width: 40%;
@@ -367,7 +384,7 @@ h2 {
 
 }
 
-/*GRID*/
+/*SECCIÓN SERVICIOS - GRID*/
 
 .grid {
     
@@ -475,27 +492,6 @@ h2 {
 } 
 
 
-.colorServicios {
-    background-color: #e9ecef;
-    
-    background-size: contain;
-}
-
-.centradoServicios {
-
-  
-
-    font-family: 'Raleway', sans-serif;
-    text-align: center;
-    font-size: 2em;
-    font-weight: 500;
-    letter-spacing: 1em;
-    border-radius: 5px;
-
-    
-}
-
-
 
 .listas {
 
@@ -509,7 +505,7 @@ h2 {
 }
 
 
-.titulos{
+.titulos {
 
     
     background-color: #7AA298;
@@ -535,10 +531,11 @@ h3 {
 }
 
 
-.pieOpinion {
+/* .pieOpinion {
     margin-bottom: 0em;
-}
+} */
 
+/*COLUMNAS OPINIONES*/
 
 .row {
 
