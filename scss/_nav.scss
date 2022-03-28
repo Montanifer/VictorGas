@@ -3,12 +3,8 @@ header {
    
     background-color: #ffffff;
 
-    .borde {
-
-        border: 2px solid #ffc550;
-        border-radius: 5px;
-        margin: 3em 8em 2em 6em
-    }
+    
+    
     .logo {
 
         padding-left: 20px;
@@ -36,4 +32,11 @@ header {
         }
     }
 
+}
+
+.borde {
+
+    border: 2px solid #ffc550;
+    border-radius: 5px;
+    margin: 3em 8em 2em 6em;
 }

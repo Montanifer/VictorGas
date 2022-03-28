@@ -1,4 +1,29 @@
 @charset "UTF-8";
+header {
+  background-color: #ffffff; }
+  header .logo {
+    padding-left: 20px;
+    padding-top: 20px; }
+  header ul {
+    display: flex;
+    justify-content: right;
+    background-color: #ffffff;
+    padding-right: 20px;
+    padding-bottom: 15px;
+    letter-spacing: 0.5em; }
+    header ul li {
+      font-family: 'Raleway', sans-serif;
+      display: inline-block;
+      margin: 10px;
+      font-size: 14px;
+      font-weight: 600;
+      color: #ffc550; }
+
+.borde {
+  border: 2px solid #ffc550;
+  border-radius: 5px;
+  margin: 3em 8em 2em 6em; }
+
 * {
   padding: 0;
   margin: 0; }
@@ -30,30 +55,6 @@ a {
 .logoinicio {
   margin-top: 10%;
   margin-left: 95%; }
-
-header {
-  background-color: #ffffff; }
-  header .borde {
-    border: 2px solid #ffc550;
-    border-radius: 5px;
-    margin: 3em 8em 2em 6em; }
-  header .logo {
-    padding-left: 20px;
-    padding-top: 20px; }
-  header ul {
-    display: flex;
-    justify-content: right;
-    background-color: #ffffff;
-    padding-right: 20px;
-    padding-bottom: 15px;
-    letter-spacing: 0.5em; }
-    header ul li {
-      font-family: 'Raleway', sans-serif;
-      display: inline-block;
-      margin: 10px;
-      font-size: 14px;
-      font-weight: 600;
-      color: #ffc550; }
 
 .btn__secciones {
   background: #ffffff;
@@ -125,6 +126,25 @@ header {
   .formulario .backgroundFormulario {
     background-color: #7AA298; }
 
+.footer {
+  font-family: 'Raleway', sans-serif;
+  border: 2px solid #ffeead;
+  border-radius: 5px;
+  background-color: #ffffff;
+  padding: 2em;
+  margin: 2em 8em 1em 6em; }
+  .footer .pie {
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px 0px 10px; }
+    .footer .pie .pieOpinion {
+      margin-bottom: 0em; }
+    .footer .pie .menuFooter:hover {
+      color: #008b8b;
+      transition: all 0.5s; }
+    .footer .pie .iconos {
+      display: inline; }
+
 h2 {
   margin-bottom: 1em; }
 
@@ -164,35 +184,11 @@ h2 {
   border-radius: 5px;
   box-shadow: 4px 4px #ffc550; }
 
-/*FOOTER*/
-.footer {
-  font-family: 'Raleway', sans-serif;
-  border: 2px solid #ffeead;
-  border-radius: 5px;
-  background-color: #ffffff;
-  padding: 2em;
-  margin: 2em 8em 1em 6em; }
-
-.menuFooter:hover {
-  color: #008b8b;
-  transition: all 0.5s; }
-
-.pie {
-  display: flex;
-  justify-content: space-between;
-  margin: 0px 10px 0px 10px; }
-
-.iconos {
-  display: inline; }
-
 .transformacion:hover {
   transform: scale(2); }
 
 .transformacion {
   transition: all 1s; }
-
-.pieOpinion {
-  margin-bottom: 0em; }
 
 /*H1 SECCIONES*/
 .colorServicios {
