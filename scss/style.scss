@@ -2,6 +2,7 @@
 @import "nav";
 @import "botones";
 @import "formulario";
+@import "footer";
 
 
 
@@ -59,39 +60,6 @@ h2 {
     
 }
 
-
-/*FOOTER*/
-
-.footer {
-    
-    font-family: 'Raleway', sans-serif;
-    border: 2px solid #ffeead;
-    border-radius: 5px;
-    background-color: #ffffff;
-    padding: 2em;
-    margin: 2em 8em 1em 6em
-}
-.menuFooter:hover {
-    color: #008b8b;
-    transition: all 0.5s;
-    
-}
-
-
-
-.pie {
-    display: flex;
-    justify-content: space-between;
-    margin: 0px 10px 0px 10px;
-
-}
-
-
-
-.iconos {
-    display: inline;
-}
-
 .transformacion:hover {
     transform: scale(2);
 
@@ -102,9 +70,8 @@ h2 {
 
 }
 
-.pieOpinion {
-    margin-bottom: 0em;
-}
+
+
 
 /*H1 SECCIONES*/
 

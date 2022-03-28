@@ -1,0 +1,33 @@
+.footer {
+    
+    font-family: 'Raleway', sans-serif;
+    border: 2px solid #ffeead;
+    border-radius: 5px;
+    background-color: #ffffff;
+    padding: 2em;
+    margin: 2em 8em 1em 6em;
+
+    .pie {
+        display: flex;
+        justify-content: space-between;
+        margin: 0px 10px 0px 10px;
+
+        .pieOpinion {
+            margin-bottom: 0em;
+        }
+
+
+        .menuFooter:hover {
+            color: #008b8b;
+            transition: all 0.5s;
+            
+        }
+
+        .iconos {
+            display: inline;
+        }
+        
+        
+    
+    }
+}
