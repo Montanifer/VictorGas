@@ -1,0 +1,48 @@
+.btn__secciones {
+    background: #ffffff;
+    padding: 5px 18px;
+    font-weight: 200;
+    font-size: 14px;
+    border: 3px solid #ffc550;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    margin-top: 13px;
+    transition: all 0.5s;
+
+
+}
+
+.btn__secciones:hover {
+    background-color: #7AA298;
+}
+
+
+.btn__formulario {
+
+    letter-spacing: 0.5em;
+    background: #ffc550;
+    padding: 5px 18px;
+    font-size: 0.8em;
+    border: 1px solid black;
+    border-radius: 5px;
+    box-shadow: 1px 1px;
+    margin-top: 13px;
+}
+
+.btn__color {
+
+    letter-spacing: 0.5em;
+
+    border: 3px solid #ffc550;
+    border-radius: 5px;
+    padding: 10px;
+    background-color: #7AA298;
+    box-shadow: 1px 1px;
+    text-decoration: none;
+    transition: all 0.5s;
+}
+
+.btn__color:hover {
+    background-color: #e9ecef;
+
+}

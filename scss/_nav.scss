@@ -1,0 +1,39 @@
+header {
+
+   
+    background-color: #ffffff;
+
+    .borde {
+
+        border: 2px solid #ffc550;
+        border-radius: 5px;
+        margin: 3em 8em 2em 6em
+    }
+    .logo {
+
+        padding-left: 20px;
+        padding-top: 20px;
+       
+        
+    }
+
+    ul {
+        display: flex;
+        justify-content: right;
+        background-color: #ffffff;
+        padding-right: 20px;
+        padding-bottom: 15px;
+        letter-spacing: 0.5em;
+
+        li {
+            font-family: 'Raleway', sans-serif;
+            display: inline-block;
+            margin: 10px;
+            font-size: 14px;
+            font-weight: 600;
+            color: #ffc550;
+        
+        }
+    }
+
+}
