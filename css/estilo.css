@@ -390,7 +390,7 @@ h3 {
     display: flex;
     flex-wrap: wrap; } }
 
-@media (min-width: 576px) {
+@media (max-width: 576px) {
   .footer {
     display: flex;
     flex-wrap: wrap; } }
