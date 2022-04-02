@@ -28,12 +28,10 @@ h2 {
     box-shadow: 4px 4px #ffc550;
     padding: 50px;
     margin: 7em 8em 2em 6em
-    
-    
 }
 
 .servicios {
-    
+
     width: 80%;
     height: auto;
     display: flex;
@@ -46,7 +44,6 @@ h2 {
     box-shadow: 4px 4px #ffc550;
     padding: 50px;
     margin: 7em 8em 2em 6em
-    
 }
 
 
@@ -63,7 +60,7 @@ h2 {
     border: 2px solid #ffc550;
     border-radius: 5px;
     box-shadow: 4px 4px #ffc550;
-    
+
 }
 
 .transformacion:hover {
@@ -83,13 +80,13 @@ h2 {
 
 .colorServicios {
     background-color: #e9ecef;
-    
+
     background-size: contain;
 }
 
 .centradoServicios {
 
-  
+
 
     font-family: 'Raleway', sans-serif;
     text-align: center;
@@ -98,7 +95,7 @@ h2 {
     letter-spacing: 1em;
     border-radius: 5px;
 
-    
+
 }
 
 /*SECCIÓN EQUIPO*/
@@ -111,21 +108,24 @@ h2 {
     margin: 6em 20em 1em 30em;
     border: 2px solid #ffc550;
     box-shadow: 5px 5px #ffc550;
-  
-}
- .card-body {
 
-     padding: 1em;
-     flex-direction: row;
-     background-color: #e9ecef;
-     
-    
- }
+}
+
+.card-body {
+
+    padding: 1em;
+    flex-direction: row;
+    background-color: #e9ecef;
+
+
+}
+
 #reverse {
     flex-direction: row-reverse;
-    
+
 
 }
+
 .card-img-top {
     border-radius: 50%;
     margin: 1em;
@@ -135,14 +135,14 @@ h2 {
 
 .card-title {
     letter-spacing: 0.5em;
-    
-    
+
+
 }
 
 .card-text {
     background-color: #e9ecef;
 
-    
+
 }
 
 .card-title {
@@ -153,7 +153,7 @@ h2 {
 /*SECCIÓN SERVICIOS - GRID*/
 
 .grid {
-    
+
     width: 60%;
     display: grid;
     grid-template-areas:
@@ -172,41 +172,41 @@ h2 {
     background-image: url(../imagenes/hornalla.jpg);
     background-size: cover;
     background-position: center;
-   
-    
+
+
     border: 2px solid #ffc550;
     border-radius: 5px;
     text-align: center;
     font-size: 3em;
     font-weight: 900;
     color: #ffc550;
-    
+
 }
 
 #servicios2 {
 
     grid-area: servicios2;
-    background-image:url(../imagenes/plomero.jpg);
+    background-image: url(../imagenes/plomero.jpg);
     background-size: cover;
     background-position: center;
-    
+
     border: 2px solid #ffc550;
     border-radius: 5px;
     text-align: center;
     font-size: 3em;
     font-weight: 900;
     color: #ffc550;
-   
+
 
 
 }
 
 #servicios3 {
     grid-area: servicios3;
-    background-image:url(../imagenes/mantenimiento.jpg);
+    background-image: url(../imagenes/mantenimiento.jpg);
     background-size: cover;
     background-position: center;
-   
+
     border: 2px solid #ffc550;
     border-radius: 5px;
     text-align: center;
@@ -217,7 +217,7 @@ h2 {
 }
 
 .opacidad {
-    
+
     opacity: 0.8;
 }
 
@@ -228,15 +228,15 @@ h2 {
     opacity: 0.9;
     border: 2px solid #ffc550;
     border-radius: 5px;
-   
+
     box-shadow: 4px 4px #ffc550;
-    
-   
+
+
 }
 
 #plomeria1 {
     grid-area: plomeria1;
-   
+
     padding: 1em;
     background-color: #e9ecef;
     opacity: 0.9;
@@ -248,14 +248,14 @@ h2 {
 
 #hogar1 {
     grid-area: hogar1;
-    
+
     padding: 1em;
     background-color: #e9ecef;
     opacity: 0.9;
     border: 2px solid #ffc550;
     border-radius: 5px;
     box-shadow: 4px 4px #ffc550;
-} 
+}
 
 
 
@@ -267,27 +267,27 @@ h2 {
     font-size: 16px;
     font-weight: 100;
     margin-left: 10em;
-    
+
 }
 
 
 .titulos {
 
-    
+
     background-color: #7AA298;
     border: 2px solid #ffc550;
     padding: 3em;
     margin: 3em 8em 2em 6em;
-    
+
 }
 
 
 
- .container {
+.container {
     width: 40%;
     margin-top: 1em;
-    
-  }
+
+}
 
 h3 {
     font-size: 16px;
@@ -304,87 +304,121 @@ h3 {
     margin-top: 6em;
     border: 2px solid #ffc550;
     border-radius: 5px;
-    
+
     box-shadow: 4px 4px #ffc550;
     background-color: #e9ecef;
     padding: 2em 2em 2em 4em;
     text-align: justify;
     margin-bottom: 0em;
-   
+
 }
 
- .rounded-circle {
+.rounded-circle {
 
     border-radius: 50%;
     margin-top: 15px;
     border: 2px solid #ffc550;
-}  
+}
 
 /*MEDIA QUERIES*/
 
-@media (max-width: 767px) {
+@media (max-width: 1200px) and (min-width: 576px) {
     ul {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
-  
-@media (max-width: 992px) {
-    ul {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
+        display: flex;
+        flex-direction: column;
 
-@media (max-width: 1200px) {
-    ul {
-      display: flex;
-      flex-wrap: wrap;
     }
-  }
+}
 
-@media (max-width: 768px) {
+//   @media (max-width: 1200px) {
+//     ul {
+//       display: flex;
+//       flex-direction: column;
+
+//     }
+//   }
+
+
+
+@media (max-width: 576px) {
     .logo {
-     width: auto;
-  }
+        width: 150px;
+        height: auto;
+    }
 }
 
 
+// @media (max-width: 576px) {
+//     .footer {
+//         display: flex;
+//         flex-direction: column; 
+//         width: 500px;
+//     }
+// }
 
-
-
-@media (max-width: 768px) {
+@media (max-width: 1200px) and (min-width: 576px) {
     .footer {
         display: flex;
-        flex-wrap: wrap; 
+        flex-direction: column;
+        width: 500px;
     }
 }
 
-@media (max-width: 992px) {
-    .footer {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
 
-  @media (max-width: 1200px) {
-    .footer {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
 
-  @media (max-width: 576px) {
-    .footer {
-      display: flex;
-      flex-wrap: wrap;
-    }
-  }
+@media (max-width: 1200px) and (min-width: 576px) {
 
-  @media (max-width: 768px) {
     .grid {
-        margin-left: 70%;
-    }
-  }
 
-  
+        display: grid;
+        grid-template-areas: "servicios1 gas1"
+            "servicios2 plomeria1"
+            "servicios3 hogar1";
+        grid-template-columns: 2fr;
+        grid-template-rows: 3fr 3fr 3fr;
+        gap: 10px;
+        margin-left: 50px;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 576px) {
+    .centradoServicios {
+
+        text-align: center;
+        font-size: 1em;
+        font-weight: 500;
+        letter-spacing: 0.5em;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 576px) {
+    .img {
+
+        width: 450px;
+        height: auto;
+
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 576px) {
+    .card {
+
+        width: 85%;
+        height: auto;
+        margin-left: 100px;
+
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 576px) {
+    .comentario {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (max-width: 1200px) and (min-width: 576px) {
+    .formulario {
+        width: 500px;
+    }
+}
