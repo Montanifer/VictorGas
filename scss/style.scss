@@ -16,6 +16,8 @@ h2 {
 
 .equipo {
 
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -32,6 +34,8 @@ h2 {
 
 .servicios {
     
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -48,6 +52,8 @@ h2 {
 
 .opiniones {
 
+    width: 80%;
+    height: auto;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
@@ -343,11 +349,9 @@ h3 {
   }
 }
 
-@media (max-width: 768px) {
-    .servicios {
-        text-align: left;
-    }
-}
+
+
+
 
 @media (max-width: 768px) {
     .footer {

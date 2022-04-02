@@ -150,6 +150,8 @@ h2 {
 
 /*SECCIÓN INICIO*/
 .equipo {
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -162,6 +164,8 @@ h2 {
   margin: 7em 8em 2em 6em; }
 
 .servicios {
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-evenly;
@@ -174,6 +178,8 @@ h2 {
   margin: 7em 8em 2em 6em; }
 
 .opiniones {
+  width: 80%;
+  height: auto;
   display: flex;
   flex-direction: row;
   justify-content: space-around;
@@ -370,10 +376,6 @@ h3 {
 @media (max-width: 768px) {
   .logo {
     width: auto; } }
-
-@media (max-width: 768px) {
-  .servicios {
-    text-align: left; } }
 
 @media (max-width: 768px) {
   .footer {
