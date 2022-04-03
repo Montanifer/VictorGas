@@ -322,6 +322,7 @@ h3 {
 
 /*MEDIA QUERIES*/
 
+
 @media (max-width: 1200px) and (min-width: 480px) {
     ul {
         display: flex;
@@ -329,9 +330,6 @@ h3 {
 
     }
 }
-
-
-
 
 @media (max-width: 576px) {
     .logo {
